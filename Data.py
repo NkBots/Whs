@@ -14,7 +14,7 @@ Only that friend and you will be able to read the message even though others are
 
 To see how to use me press 'How to Use' below.
 
-By @StarkBots
+By @Tellybots_4u
     """
 
     # Home Button
@@ -29,32 +29,32 @@ By @StarkBots
         ],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton(" About ", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton(" More Amazing bots ", url="https://t.me/Tellybots_4u")],
+        [InlineKeyboardButton("Support Group ", url="https://t.me/Tellybots_support")],
     ]
 
     # Help Message
     HELP = """
 Just type the message in below format in any chat.
 
-`@WhisperStarkBot your_message friend_username/id`
+`@tellywhisperbot your_message friend_username/id`
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Designed by @Tellybots_4u
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/WhisperBot)
+Source Code : [Click Here](https://t.me/tellybots_digital)
 
-Inspired By : nnbbot
+Hosted on  : Heroku
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @Tellybots_4u
     """
