@@ -19,14 +19,14 @@ main = [
     InlineQueryResultArticle(
         title="Whisper Bot",
         input_message_content=InputTextMessageContent("Plz Write Target User's @username or id at the end of your message."),
-        url="https://t.me/tellybots_4u",
+        url="https://t.me/tellybotzz",
         description="Write Target User's @username or id at the end of your message.",
         thumb_url="https://telegra.ph/file/82a7950921f938bf2d0b2.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Learn More", url="https://t.me/tellywhisperbot?start=start")],
+                [InlineKeyboardButton("Learn More", url="https://t.me/telly_whisperbot?start=start")],
                 [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-                [InlineKeyboardButton(" For More Amazing bots ", url="https://t.me/tellybots_4u")]
+                [InlineKeyboardButton(" For More Amazing bots ", url="https://t.me/tellybotzz")]
             ]
         ),
     )
